@@ -28,6 +28,23 @@ On utilise le symbole `#` suivi d'un espace.
 | ~~Barré~~ | `~~texte~~` | ~~Texte barré~~ |
 
 ---
+`<br>` A la ligne
+***Exemple :***
+
+**Entrer :** <br>
+```
+fndgvnsadjkgnudjsaujdsgsadgfasujifhasduifhusdagfusdiahgfsdavdsnkjlnvfsdajklnvds`<br>`fsdankjlfjndasikolghjisodkahjgiolsdahjng
+<br>
+<br>
+fdsaikfjsdiaolghjoilsadhgolishdaf`<br>`
+```
+
+**Sortie :** <br>
+fndgvnsadjkgnudjsaujdsgsadgfasujifhasduifhusdagfusdiahgfsdavdsnkjlnvfsdajklnvds<br>fsdankjlfjndasikolghjisodkahjgiolsdahjng
+<br>
+<br>
+fdsaikfjsdiaolghjoilsadhgolishdaf<br>
+
 
 ## 3. Listes
 
