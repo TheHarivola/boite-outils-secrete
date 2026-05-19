@@ -27,9 +27,9 @@ boite-a-outils-secrete/
 
 1. **Dépôt Initial :** Création d'un dossier vide (ou avec un README.md) sur la branche principale (main ou master).
 
-2. **Branche Développeur A :** feature/chiffrement
+2. **Branche Développeur A :** `feature/chiffrement`
 
-3. **Branche Développeur B :** feature/dechiffrement-ui
+3. **Branche Développeur B :** `feature/dechiffrement-ui`
 
 4. **Fin de Sprint :** Fusion (Merge) des deux branches dans la branche principale.
 
