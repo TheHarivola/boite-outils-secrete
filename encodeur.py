@@ -1,1 +1,1 @@
-print "Kez Kez eh"
+print ("Kez Kez eh")
