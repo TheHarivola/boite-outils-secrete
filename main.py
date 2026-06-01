@@ -1,0 +1,3 @@
+import decodeur
+
+decodeur.ASCII_converter(decodeur.message_a_decoder)

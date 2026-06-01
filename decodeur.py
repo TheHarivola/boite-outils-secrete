@@ -2,35 +2,11 @@ print ("Bienvenue dans le décodeur de messages secrets !")
 print ("Veuillez entrer le message codé que vous souhaitez décoder :")
 message_a_decoder = input()
 
-# ascii = {
-#     "A" : 41,
-#     "B" : 66,
-#     "C" : 67,
-#     "D" : 68,
-#     "E" : 69,
-#     "F" : 70,
-#     "G" : 71,
-#     "H" : 72,
-#     "I" : 73,
-#     "J" : 74,
-#     "K" : 75,
-#     "L" : 76,
-#     "M" : 77,
-#     "N" : 78,
-#     "O" : 79,
-#     "P" : 80,
-#     "Q" : 81,
-#     "R" : 82,
-#     "S" : 83,
-#     "T" : 84,
-#     "U" : 85,
-#     "V" : 86,
-#     "W" : 87,
-#     "X" : 88,
-#     "Y" : 89,
-#     "Z" : 90
-# }
-
-
-print (ascii(message_a_decoder))
-
+def ASCII_converter (message_a_decoder):
+    for caractere in message_a_decoder: # boucle qui parcourt chaque caractère du message à décoder       
+        code_to_ASCII = ord(caractere)  # Convertit le caractère en son code ASCII
+        # ASCII_to_code = chr(code_to_ASCII) # Convertit le code ASCII en caractère
+        caracactere_valeur = {caractere: code_to_ASCII} # crée un dictionnaire avec le caractère et sa valeur ASCII
+        # valeur_caractere = {code_to_ASCII: caractere} # crée un dictionnaire avec la valeur ASCII et le caractère correspondant
+        print(caracactere_valeur) # affiche le dictionnaire pour chaque caractère
+        # print(valeur_caractere) # affiche le dictionnaire pour chaque code ASCII
