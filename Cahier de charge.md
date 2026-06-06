@@ -1,4 +1,4 @@
-﻿# 📑 Cahier des Charges : Projet "La Boîte à Outils Secrète"
+# 📑 Cahier des Charges : Projet "La Boîte à Outils Secrète"
 
 Ce document définit les spécifications, la structure et la méthodologie de travail pour le développement de l'application de chiffrement et déchiffrement de messages (variante du Code César).
 
